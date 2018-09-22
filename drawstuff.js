@@ -477,7 +477,7 @@ function deepCopy(anInstance) {
 //get the input triangles from the standard class URL
 function getInputLights() {
     const INPUT_LIGHT_URL = 
-        "https://praneshpk.github.io/prog1/lights.json";
+        "https://praneshpk.github.io/ray-tracing-exercise/lights.json";
         
     // load the triangles file
     var httpReq = new XMLHttpRequest(); // a new http request
